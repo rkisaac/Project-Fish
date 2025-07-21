@@ -219,7 +219,6 @@ viewer.show()
 # 🧬 INTEGRATED RNA STRUCTURE TOOL - Colab Version
 
 # STEP 1: Install Libraries
-!pip install -q biopython py3Dmol viennarna scikit-learn seaborn matplotlib
 
 # STEP 2: Import Required Libraries
 import os
@@ -505,7 +504,7 @@ view.show()
 
 # Optionally save screenshot (requires additional tools in local Jupyter, not in Colab)
 
-!pip install tensorflow biopython matplotlib scikit-learn
+
 
 import os
 import numpy as np
