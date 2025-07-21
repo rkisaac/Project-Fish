@@ -18,7 +18,7 @@ gene = "G1"  #@param ["G1", "G2", "G3", "G4", "G5"]
 submit = True  #@param {type:"boolean"}
 
 if submit:
-    print("🔬 Analyzing prediction...
+    print("🔬 Analyzing prediction...")
 ")
     if fish_species == "Common Carp" and organ == "Gill" and disease == "Koi":
         severity = "High"
