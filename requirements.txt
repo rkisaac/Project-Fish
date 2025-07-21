@@ -1,0 +1,5 @@
+streamlit
+ipywidgets
+biopython
+fpdf
+matplotlib
