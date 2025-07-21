@@ -10,7 +10,16 @@ Original file is located at
 # 🧬 INTEGRATED RNA STRUCTURE TOOL IN COLAB
 
 # Step 1: Install Required Libraries
-!pip install -q biopython py3Dmol viennarna scikit-learn matplotlib
+import subprocess
+import sys
+
+# Install required packages at runtime
+required_packages = [
+    "biopython", "py3Dmol", "viennarna", "scikit-learn", "matplotlib"
+]
+
+for package in required_packages:
+    subprocess.run([sys.executable, "-m", "pip", "install", package, "--quiet"])
 
 # Step 2: Import Libraries
 import os
