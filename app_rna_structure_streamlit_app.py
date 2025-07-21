@@ -120,7 +120,7 @@ viewer.show()
 # 🧬 INTEGRATED RNA STRUCTURE TOOL IN COLAB
 
 # Step 1: Install Required Libraries
-!pip install -q biopython py3Dmol viennarna scikit-learn matplotlib
+
 
 # Step 2: Import Libraries
 import os
