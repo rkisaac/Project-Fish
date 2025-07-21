@@ -19,7 +19,6 @@ submit = True  #@param {type:"boolean"}
 
 if submit:
     print("🔬 Analyzing prediction...")
-")
     if fish_species == "Common Carp" and organ == "Gill" and disease == "Koi":
         severity = "High"
     else:
