@@ -3,3 +3,4 @@ ipywidgets
 biopython
 fpdf
 matplotlib
+seaborn
