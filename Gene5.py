@@ -363,8 +363,10 @@ else:
 
 import pandas as pd
 import matplotlib.pyplot as plt
-st.download_button(...)
-import io
+import streamlit as st
+...
+st.download_button(...)  # Now it's safe to use
+
 import os
 
 # --- User Inputs ---
