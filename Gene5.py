@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Install required packages if needed
-# !pip install ipywidgets
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -167,8 +167,7 @@ plot_button.on_click(on_plot_clicked)
 display(widgets.VBox([display_checkbox, download_button, download_gff_button, plot_button, output_area]))
 
 # Install required libraries
-!pip install biopython
-!pip install matplotlib seaborn pandas
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -271,7 +270,7 @@ print(f"Download your CSV report from: {csv_file}")
 
 
 # Install Biopython
-!pip install biopython
+
 
 # Import required libraries
 from Bio import Entrez, SeqIO
@@ -360,7 +359,7 @@ else:
     print("No gene coordinates found for plotting.")
 
 # Install required libraries
-!pip install biopython pandas matplotlib
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
