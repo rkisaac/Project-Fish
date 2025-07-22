@@ -450,8 +450,7 @@ files.download('/content/gene_mapping_plot.png')
 
 
 # Install required libraries
-!pip install biopython
-!pip install matplotlib seaborn pandas
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
