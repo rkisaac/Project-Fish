@@ -222,7 +222,7 @@ def plot_gene_coordinates(df):
 
 def generate_csv_report(df):
     # Save as CSV
-    file_name = "/mnt/data/p4a_gene_report.csv"
+    file_name = "p4a_gene_report.csv"
     df.to_csv(file_name, index=False)
     print(f"CSV report generated at: {file_name}")
     return file_name
